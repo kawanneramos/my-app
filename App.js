@@ -8,7 +8,7 @@ import Atividade_1 from './componentes/atividade_1';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo_0 />
+      <Atividade_1 />
       <StatusBar style="auto" />
     </View>
   );

@@ -8,6 +8,10 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 20,
    },
+   texto2: {
+      color: '#000',
+      fontSize: 20,
+     },
 });
 
 export default styles;
