@@ -5,10 +5,11 @@ import Exemplo_0 from './componentes/exemplo_1';
 import Exemplo_2 from './componentes/exemplo_2';
 
 import Atividade_1 from './componentes/atividade_1';
+import Atividade_2 from './componentes/atividade_2';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Exemplo_2 />
+    <View style={styles.componets}>
+      <Atividade_2/>
       <StatusBar style="auto" />
     </View>
   );
