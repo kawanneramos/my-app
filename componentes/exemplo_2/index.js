@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import Mensagem from './mensagem';
+import Mensagem from '../atividade_2/mensagem';
 import styles from './styles';
 function Exemplo_2 () {
     return(

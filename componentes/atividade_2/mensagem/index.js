@@ -3,10 +3,10 @@ import { View, Text } from 'react-native';
 import styles from './styles';
 
 
-export default function Mensagem({nome,sobrenome}) {
+export default function Mensagem({ingrediente,comida}) {
     return (
         <View style={styles.viewmensagem}>
-            <Text style={styles.mensagem}>{` ${nome} ${sobrenome}`}</Text>
+            <Text style={styles.mensagem}>{` ${ingrediente}${comida}`}</Text>
         </View>
     );
 }
