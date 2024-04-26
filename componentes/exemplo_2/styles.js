@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     borderRadius: 20,
-    alignItems: 'center',
     padding: 8,
    },
    titulo: {

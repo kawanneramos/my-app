@@ -12,6 +12,7 @@ viewmensagem:{
     borderColor:'#733ba1',
     borderRadius:20,
     marginBottom:10,
+    
 },
 
 });

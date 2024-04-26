@@ -2,11 +2,11 @@ import{ StyleSheet }from 'react-native';
 
 const styles= StyleSheet.create({
     container:{
+        flex: 1,
         backgroundColor:'#fff',
-        height:'100%',
         width:'100%',
         borderRadius:20,
-        alignItems:'center',
+        alignItems:'center',  
         padding: 8,
     },
     titulo:{
