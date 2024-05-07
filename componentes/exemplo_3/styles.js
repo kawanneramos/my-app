@@ -19,7 +19,14 @@ const styles = StyleSheet.create({
       width: '80%',
       borderRadius: 20,
       alignItems: 'center',
-
+      borderColor: '#673AB7',
+    },
+    txtBotao:{
+      fontSIze: 25,
+      color: '#673AB7',
+    },
+    botaoPress: {
+      backgroundColor: '#673AB7',
     },
 
   } );
