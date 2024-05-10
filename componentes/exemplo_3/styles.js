@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native-web";
+
 const styles = StyleSheet.create({
     container: {
       flex: 1,
@@ -28,6 +29,11 @@ const styles = StyleSheet.create({
     botaoPress: {
       backgroundColor: '#673AB7',
     },
+    txtNumero: {
+      FontSize: 35,
+      color: '#673AB7',
+      marginVertical: 10,
+    }
 
   } );
   export default styles;
