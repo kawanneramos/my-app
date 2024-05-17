@@ -7,10 +7,11 @@ import Exemplo_3 from './componentes/exemplo_3';
 
 import Atividade_1 from './componentes/atividade_1';
 import Atividade_2 from './componentes/atividade_2';
+import Atividade_3 from './componentes/atividade_3';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Exemplo_3/>
+    <View style={styles.componets}>
+      <Atividade_3/>
       <StatusBar style="auto" />
     </View>
   );
@@ -25,3 +26,4 @@ const styles = StyleSheet.create({
     padding: 18,
   },
 } );
+
