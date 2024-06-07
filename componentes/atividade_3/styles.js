@@ -1,39 +1,48 @@
-import { StyleSheet } from "react-native-web";
+import { StyleSheet } from 'react-native';
+
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#e67a96',
-      borderRadius:20,
-      width: '100%',
-      alignItems: 'center',
+        flex: 1,
+        backgroundColor: 'pink',
+        borderRadius: 20,
+        width: '100%',
+        alignItems: 'center',
+
     },
     titulo: {
-        fontSyze: 30,
+        fontSize: 30,
         fontWeight: 'bold',
-        marginVertical:20,
-        color: '#673AB7',
+        marginVertical: 20,
+        color: '#eb34b4',
     },
     botao: {
-      borderWidth: 3,
-      padding: 10,
-      width: '80%',
-      borderRadius: 20,
-      alignItems: 'center',
-      borderColor: '#673AB7',
+        borderWidth: 3,
+        padding: 10,
+        width: '40%',
+        borderRadius: 20,
+        alignItems: 'center',
+        borderColor: '#eb34b4',
+        marginHorizontal:20,
+
     },
-    txtBotao:{
-      fontSIze: 25,
-      color: '#673AB7',
+    txtBotao: {
+        fontSize: 25,
+        color: '#eb34b4',
     },
     botaoPress: {
-      backgroundColor: '#673AB7',
+        backgroundColor: '3c1752',
     },
     txtNumero: {
-      FontSize: 35,
-      color: '#673AB7',
-      marginVertical: 10,
-    }
+        fontSize: 60,
+        color: '#eb34b4',
+        marginVertical: 10,
+    },
+    numeroconteiner :{
 
-  } );
-  export default styles;
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+    },
+});
+export default styles;

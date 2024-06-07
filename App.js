@@ -10,8 +10,8 @@ import Atividade_2 from './componentes/atividade_2';
 import Atividade_3 from './componentes/atividade_3';
 export default function App() {
   return (
-    <View style={styles.componets}>
-      <Atividade_3/>
+    <View style={styles.container}>
+      <Atividade_3 />
       <StatusBar style="auto" />
     </View>
   );
@@ -20,10 +20,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'pink',
+    backgroundColor: '#eb34b4',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 18,
   },
-} );
+});
 
