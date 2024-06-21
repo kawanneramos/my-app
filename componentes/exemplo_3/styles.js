@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
     },
     titulo: {
-        fontSyze: 30,
+        fontSize: 30,
         fontWeight: 'bold',
         marginVertical:20,
         color: '#673AB7',
